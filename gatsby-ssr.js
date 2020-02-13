@@ -12,7 +12,6 @@ const React = require("react")
 
 exports.onRenderBody = ({
   setHeadComponents,
-  setPostBodyComponents,
   element,
   props
 }) => {
@@ -22,10 +21,5 @@ exports.onRenderBody = ({
       />,
     <link rel="icon" href="/static/favicon-914d0879a3c3bbbe2662846631db9c8b.ico" type="image/x-icon"/>
   ])
-  setPostBodyComponents([
 
-<script src="/static/jq-13c0a5055cca7b2463b2f73701960b9e.js"></script>,
-<script src="/static/main-9a2dc0bec4f5762deb037d706f903b72.js"></script>
-
-  ])
 }
